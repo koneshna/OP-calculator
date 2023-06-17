@@ -71,9 +71,11 @@ background-color: red;
     font-size: 23px;
     display: flex;
     justify-content: flex-end;
+    height: 40px;
 }
 .bottom{
     font-size: 29px;
     display: flex;
     justify-content: flex-end;
+    align-self: flex-end ;
 }
