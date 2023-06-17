@@ -55,3 +55,25 @@ background-color: red;
 .clear:hover{
     background-color: red;
 }
+.screen{
+    width: 250px;
+    height: 75px;
+    border: 2px solid black;
+    margin: 13px;
+}
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.top{
+    font-size: 23px;
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom{
+    font-size: 29px;
+    display: flex;
+    justify-content: flex-end;
+}
