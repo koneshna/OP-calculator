@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(3, 3, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 96vh;
+    
+}
+
+button {
+    height: 69px;
+    width: 69px;
+    margin: 15px;
+    font-size: 40px;
+}
+.number{
+    border: 2px solid lightgreen;
+    
+    border-radius: 33%;
+}
+.operator{
+    border: 2px solid red;
+    border-radius: 33%;
+}
+.equal{
+    border: 2px solid blue;
+    
+    border-radius: 33%;
+}
+.deci{
+    border: 2px solid yellow;
+    
+    border-radius: 33%;
+}
+.clear{
+    border: 2px solid goldenrod;
+    
+    border-radius: 33%;
+}
