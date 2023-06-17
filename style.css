@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(3, 3, 52);
+    background-color: rgb(55, 55, 67);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,32 +10,48 @@ body{
 }
 
 button {
-    height: 69px;
+    height: 79px;
     width: 69px;
-    margin: 15px;
+    margin: 10px;
     font-size: 40px;
 }
 .number{
     border: 2px solid lightgreen;
-    
-    border-radius: 33%;
+    border-radius: 12%;
+    background-color: rgb(80, 80, 80);
+}
+.number:hover{
+    background-color: lightgreen;
 }
 .operator{
     border: 2px solid red;
-    border-radius: 33%;
+    border-radius: 12%;
+    background-color: rgb(80, 80, 80);
+}
+.operator:hover{
+background-color: red;
 }
 .equal{
-    border: 2px solid blue;
-    
-    border-radius: 33%;
+    border: 2px solid blue;  
+    border-radius: 12%;
+    background-color: rgb(80, 80, 80);
+}
+.equal:hover{
+    background-color: blue;
 }
 .deci{
-    border: 2px solid yellow;
-    
-    border-radius: 33%;
+    border: 2px solid blue;
+    border-radius: 12%;
+    background-color: rgb(80, 80, 80);
+}
+.deci:hover{
+    background-color: blue;
 }
 .clear{
-    border: 2px solid goldenrod;
-    
-    border-radius: 33%;
+    border: 2px solid red;
+    background-color: rgb(80, 80, 80);
+    border-radius: 12%;
+}
+.clear:hover{
+    background-color: red;
 }
