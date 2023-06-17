@@ -32,12 +32,12 @@ button {
 background-color: red;
 }
 .equal{
-    border: 2px solid blue;  
+    border: 2px solid gold;  
     border-radius: 12%;
     background-color: rgb(80, 80, 80);
 }
 .equal:hover{
-    background-color: blue;
+    background-color: gold;
 }
 .deci{
     border: 2px solid blue;

@@ -18,11 +18,23 @@ numbers.forEach((number) => number.addEventListener("click", function(e){
     handleNumber(e.target.textContent);
     current.textContent=bottomy;
         }))
+operators.forEach((op) => op.addEventListener("click", function(e){
+    handleOperator(e.target.textContent);
+    previous.textContent = bottomy + ' ' +operator;
+    current.textContent = bottomy
+}))
+
 })
 
 function handleNumber(num){
-    if(bottomy.length<=7){
+    if(bottomy.length<=5){
         bottomy += num;
     }
     
 };
+
+function handleOperator(op){
+    operator = op;
+    previous = topy;
+    bottomy = '';
+}
