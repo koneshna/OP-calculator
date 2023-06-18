@@ -1,1 +1,1 @@
-Trying to make a calculator
+Making a calculator
