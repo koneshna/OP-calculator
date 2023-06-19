@@ -21,9 +21,15 @@ numbers.forEach((number) => number.addEventListener("click", function(e){
 operators.forEach((op) => op.addEventListener("click", function(e){
     handleOperator(e.target.textContent);
     previous.textContent = topy + ' ' +operator;
-    current.textContent = bottomy
+    current.textContent = bottomy;
 }))
-
+clear.addEventListener("click", function(e){
+    topy = '';
+    bottomy = '';
+    operator = '';
+    previous.textContent = bottomy;
+    current.textContent = topy;
+})
 })
 
 function handleNumber(num){
