@@ -20,7 +20,7 @@ numbers.forEach((number) => number.addEventListener("click", function(e){
         }))
 operators.forEach((op) => op.addEventListener("click", function(e){
     handleOperator(e.target.textContent);
-    previous.textContent = bottomy + ' ' +operator;
+    previous.textContent = topy + ' ' +operator;
     current.textContent = bottomy
 }))
 
@@ -35,6 +35,6 @@ function handleNumber(num){
 
 function handleOperator(op){
     operator = op;
-    previous = topy;
+    topy = bottomy;
     bottomy = '';
 }
