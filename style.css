@@ -16,49 +16,49 @@ button {
     font-size: 40px;
 }
 .number{
-    border: 2px solid lightgreen;
+    border: 2px solid white;
     border-radius: 12%;
-    background-color: rgb(80, 80, 80);
+    background-color: red;
 }
 .number:hover{
-    background-color: lightgreen;
+    background-color: rgb(80, 79, 79);
 }
 .operator{
-    border: 2px solid red;
+    border: 2px solid white;
     border-radius: 12%;
-    background-color: rgb(80, 80, 80);
-}
-.operator:hover{
-background-color: red;
-}
-.equal{
-    border: 2px solid gold;  
-    border-radius: 12%;
-    background-color: rgb(80, 80, 80);
-}
-.equal:hover{
-    background-color: gold;
-}
-.deci{
-    border: 2px solid blue;
-    border-radius: 12%;
-    background-color: rgb(80, 80, 80);
-}
-.deci:hover{
     background-color: blue;
 }
+.operator:hover{
+background-color: rgb(80, 79, 79);
+}
+.equal{
+    border: 2px solid white;  
+    border-radius: 12%;
+    background-color: white(80, 80, 80);
+}
+.equal:hover{
+    background-color: rgb(80, 79, 79);
+}
+.deci{
+    border: 2px solid whitesmoke;
+    border-radius: 12%;
+    background-color: white;
+}
+.deci:hover{
+    background-color: rgb(80, 79, 79);
+}
 .clear{
-    border: 2px solid red;
-    background-color: rgb(80, 80, 80);
+    border: 2px solid white;
+    background-color: red(80, 80, 80);
     border-radius: 12%;
 }
 .clear:hover{
-    background-color: red;
+    background-color: rgb(80, 79, 79);
 }
 .screen{
-    width: 250px;
+    width: 270px;
     height: 75px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 13px;
 }
 .first-row{
@@ -79,3 +79,9 @@ background-color: red;
     justify-content: flex-end;
     align-self: flex-end ;
 }
+.rainbow {
+    background-image: linear-gradient(to left, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
